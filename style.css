@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.beats{
+    width: 100%;
+    display: flex;
+
+}
+
+.beats>div{
+    width: 100px;
+    height: 200px;
+    flex: 1;
+}
+.beat1{
+    background: #e57373;
+}
+.beat2{
+    background: #BA68C8;
+}
+.beat3{
+    background: #7986CB;
+}
+.beat4{
+    background: #4DB6AC;
+}
+.beat5{
+    background: #AED581;
+}
+.beat6
+{
+    background: #A1887F;
+}
+@keyframes jump{
+    100%{
+        height: 300px;
+    }
+    0%{
+        height: 200px;
+    }
+}
